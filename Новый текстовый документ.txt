@@ -1,0 +1,72 @@
+<!DOCTYPE html><html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Міні-Кондиціонер Arctic Cool</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #e0f7fa;
+      color: #003b46;
+      text-align: center;
+    }
+    .container {
+      padding: 20px;
+    }
+    .product-image {
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 20px;
+    }
+    .title {
+      font-size: 24px;
+      font-weight: bold;
+    }
+    .price {
+      font-size: 28px;
+      font-weight: bold;
+      color: #00796b;
+      margin: 20px 0;
+    }
+    .features {
+      text-align: left;
+      max-width: 500px;
+      margin: 0 auto 20px;
+    }
+    .features li {
+      margin-bottom: 10px;
+    }
+    .cta-button {
+      background-color: #00796b;
+      color: white;
+      padding: 15px 30px;
+      border: none;
+      font-size: 18px;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+    .cta-button:hover {
+      background-color: #004d40;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="https://i.imgur.com/CxHZrMp.jpg" alt="Міні-кондиціонер" class="product-image">
+    <div class="title">СПЕКА ДІСТАЛА? ОХОЛОДИТЬ!</div>
+    <ul class="features">
+      <li>✔️ Вдома, в офісі, на дачі чи в гаражі</li>
+      <li>✔️ Поміститься на стіл</li>
+      <li>✔️ Охолоджує і зволожує</li>
+      <li>✔️ Тихий у роботі</li>
+    </ul>
+    <div class="price">Ціна: 499 грн</div>
+    <p>Доставка по Україні — Новою Поштою</p>
+    <a href="https://t.me/sunnybox_shop" target="_blank">
+      <button class="cta-button">Замовити в Telegram</button>
+    </a>
+  </div>
+</body>
+</html>
